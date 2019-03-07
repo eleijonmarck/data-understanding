@@ -8,21 +8,21 @@ from sklearn.decomposition import PCA
 dishes = ["pad thai", "pizza", "pancakes", "kebab", "dumplings", "sushi", "hot dog", "poke bowl", "noodles", "hamburger"]
 
 persons = [
-        [1,0,0,0,1,1,0,0,1,0], # asian
-        [1,1,0,1,0,0,1,0,0,1], # fast food
-        [1,1,0,0,0,0,1,0,0,1], # fast food svenne
-        [0,1,0,0,0,0,1,0,0,1], # fast food svenne old school
-        [0,0,0,0,0,1,0,1,0,0], # asian snob
-        [1,0,0,0,0,1,0,1,0,1], # asian snob hibby
-        [0,0,1,0,0,1,0,1,0,0], # asian snob hibby
-        [0,0,1,0,0,0,1,0,0,0], # US kdi
-        [0,0,1,0,0,0,1,0,0,1], # US hambuerger kdi
-        [0,1,0,1,0,0,0,0,0,1], # US gamer
-        [0,1,1,1,0,0,0,0,0,1], # US gamer
-        [0,1,0,1,0,1,0,0,0,1], # US fat gamer
-        [0,0,0,0,0,0,1,0,1,0], # Asian chinese
+        [1,0,0,0,1,1,0,0,1,0], # Asian
+        [1,1,0,1,0,0,1,0,0,1], # Fast food
+        [1,1,0,0,0,0,1,0,0,1], # Fast food
+        [0,1,0,0,0,0,1,0,0,1], # Fast Food
+        [0,0,0,0,0,1,0,1,0,0], # Asian
+        [1,0,0,0,0,1,0,1,0,1], # Asian
+        [0,0,1,0,0,1,0,1,0,0], # Asian
+        [0,0,1,0,0,0,1,0,0,0], # US
+        [0,0,1,0,0,0,1,0,0,1], # US
+        [0,1,0,1,0,0,0,0,0,1], # US
+        [0,1,1,1,0,0,0,0,0,1], # US
+        [0,1,0,1,0,1,0,0,0,1], # US
+        [0,0,0,0,0,0,1,0,1,0], # Asian
         [0,1,0,0,0,0,1,0,0,0], # US
-        [0,0,0,0,1,1,0,1,0,0], # Asian snob
+        [0,0,0,0,1,1,0,1,0,0], # Asian
         ]
 
 df = pd.DataFrame(persons, columns=dishes)
